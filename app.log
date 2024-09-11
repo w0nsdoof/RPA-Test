@@ -1,0 +1,113 @@
+2024-09-11 16:39:05,460 - INFO - Starting to scan directory: test_directory
+2024-09-11 16:39:05,461 - DEBUG - Scanning directory: test_directory
+2024-09-11 16:39:05,461 - DEBUG - Found file: test_directory\file1.txt with extension: .txt
+2024-09-11 16:39:05,461 - DEBUG - Found file: test_directory\file2.pdf with extension: .pdf
+2024-09-11 16:39:05,461 - DEBUG - Found file: test_directory\file3 with extension: 
+2024-09-11 16:39:05,461 - DEBUG - Found directory: test_directory\subfolder, scanning recursively
+2024-09-11 16:39:05,461 - DEBUG - Scanning directory: test_directory\subfolder
+2024-09-11 16:39:05,461 - DEBUG - Found file: test_directory\subfolder\file4.txt with extension: .txt
+2024-09-11 16:39:05,461 - DEBUG - Found file: test_directory\subfolder\file5.txt with extension: .txt
+2024-09-11 16:39:05,461 - DEBUG - Found file: test_directory\subfolder\file6.pdf with extension: .pdf
+2024-09-11 16:39:05,461 - INFO - Finished scanning directory: test_directory
+2024-09-11 16:39:05,465 - INFO - Starting to scan directory: no_files_directory
+2024-09-11 16:39:05,465 - DEBUG - Scanning directory: no_files_directory
+2024-09-11 16:39:05,465 - DEBUG - Found directory: no_files_directory\subfolder1, scanning recursively
+2024-09-11 16:39:05,465 - DEBUG - Scanning directory: no_files_directory\subfolder1
+2024-09-11 16:39:05,465 - DEBUG - Found directory: no_files_directory\subfolder2, scanning recursively
+2024-09-11 16:39:05,465 - DEBUG - Scanning directory: no_files_directory\subfolder2
+2024-09-11 16:39:05,465 - INFO - Finished scanning directory: no_files_directory
+2024-09-11 16:39:05,469 - INFO - Starting to scan directory: empty_directory
+2024-09-11 16:39:05,469 - DEBUG - Scanning directory: empty_directory
+2024-09-11 16:39:05,469 - INFO - Finished scanning directory: empty_directory
+2024-09-11 16:39:05,473 - ERROR - The path 'invalid_directory' is not a valid directory or does not exist.
+2024-09-11 16:39:05,476 - INFO - Starting to scan directory: test_directory
+2024-09-11 16:39:05,476 - DEBUG - Scanning directory: test_directory
+2024-09-11 16:39:05,476 - DEBUG - Found file: test_directory\file1.txt with extension: .txt
+2024-09-11 16:39:05,476 - DEBUG - Skipping file test_directory\file2.pdf due to size filter
+2024-09-11 16:39:05,476 - DEBUG - Skipping file test_directory\file3 due to size filter
+2024-09-11 16:39:05,476 - DEBUG - Found directory: test_directory\subfolder, scanning recursively
+2024-09-11 16:39:05,476 - DEBUG - Scanning directory: test_directory\subfolder
+2024-09-11 16:39:05,476 - DEBUG - Skipping file test_directory\subfolder\file4.txt due to size filter
+2024-09-11 16:39:05,476 - DEBUG - Skipping file test_directory\subfolder\file5.txt due to size filter
+2024-09-11 16:39:05,476 - DEBUG - Skipping file test_directory\subfolder\file6.pdf due to size filter
+2024-09-11 16:39:05,477 - INFO - Finished scanning directory: test_directory
+2024-09-11 16:39:05,480 - INFO - Starting to scan directory: test_directory
+2024-09-11 16:39:05,480 - DEBUG - Scanning directory: test_directory
+2024-09-11 16:39:05,480 - DEBUG - Skipping file test_directory\file1.txt due to size filter
+2024-09-11 16:39:05,480 - DEBUG - Found file: test_directory\file2.pdf with extension: .pdf
+2024-09-11 16:39:05,480 - DEBUG - Skipping file test_directory\file3 due to size filter
+2024-09-11 16:39:05,480 - DEBUG - Found directory: test_directory\subfolder, scanning recursively
+2024-09-11 16:39:05,480 - DEBUG - Scanning directory: test_directory\subfolder
+2024-09-11 16:39:05,480 - DEBUG - Skipping file test_directory\subfolder\file4.txt due to size filter
+2024-09-11 16:39:05,480 - DEBUG - Skipping file test_directory\subfolder\file5.txt due to size filter
+2024-09-11 16:39:05,480 - DEBUG - Skipping file test_directory\subfolder\file6.pdf due to size filter
+2024-09-11 16:39:05,480 - INFO - Finished scanning directory: test_directory
+2024-09-11 16:39:05,485 - INFO - Starting to scan directory: test_directory
+2024-09-11 16:39:05,485 - DEBUG - Scanning directory: test_directory
+2024-09-11 16:39:05,485 - DEBUG - Found file: test_directory\file1.txt with extension: .txt
+2024-09-11 16:39:05,485 - DEBUG - Skipping file test_directory\file2.pdf due to modification date filter
+2024-09-11 16:39:05,485 - DEBUG - Skipping file test_directory\file3 due to modification date filter
+2024-09-11 16:39:05,485 - DEBUG - Found directory: test_directory\subfolder, scanning recursively
+2024-09-11 16:39:05,485 - DEBUG - Scanning directory: test_directory\subfolder
+2024-09-11 16:39:05,485 - DEBUG - Skipping file test_directory\subfolder\file4.txt due to modification date filter
+2024-09-11 16:39:05,485 - DEBUG - Skipping file test_directory\subfolder\file5.txt due to modification date filter
+2024-09-11 16:39:05,485 - DEBUG - Skipping file test_directory\subfolder\file6.pdf due to modification date filter
+2024-09-11 16:39:05,485 - INFO - Finished scanning directory: test_directory
+2024-09-11 16:39:05,490 - INFO - Starting to scan directory: test_directory
+2024-09-11 16:39:05,490 - DEBUG - Scanning directory: test_directory
+2024-09-11 16:39:05,490 - DEBUG - Skipping file test_directory\file1.txt due to extension filter
+2024-09-11 16:39:05,490 - DEBUG - Found file: test_directory\file2.pdf with extension: .pdf
+2024-09-11 16:39:05,490 - DEBUG - Skipping file test_directory\file3 due to extension filter
+2024-09-11 16:39:05,490 - DEBUG - Found directory: test_directory\subfolder, scanning recursively
+2024-09-11 16:39:05,490 - DEBUG - Scanning directory: test_directory\subfolder
+2024-09-11 16:39:05,490 - DEBUG - Skipping file test_directory\subfolder\file4.txt due to extension filter
+2024-09-11 16:39:05,490 - DEBUG - Skipping file test_directory\subfolder\file5.txt due to extension filter
+2024-09-11 16:39:05,490 - DEBUG - Found file: test_directory\subfolder\file6.pdf with extension: .pdf
+2024-09-11 16:39:05,490 - INFO - Finished scanning directory: test_directory
+2024-09-11 16:39:05,494 - INFO - Starting to scan directory: test_directory
+2024-09-11 16:39:05,494 - DEBUG - Scanning directory: test_directory
+2024-09-11 16:39:05,494 - DEBUG - Found file: test_directory\file1.txt with extension: .txt
+2024-09-11 16:39:05,494 - DEBUG - Skipping file test_directory\file2.pdf due to extension filter
+2024-09-11 16:39:05,494 - DEBUG - Skipping file test_directory\file3 due to extension filter
+2024-09-11 16:39:05,494 - DEBUG - Found directory: test_directory\subfolder, scanning recursively
+2024-09-11 16:39:05,494 - DEBUG - Scanning directory: test_directory\subfolder
+2024-09-11 16:39:05,494 - DEBUG - Found file: test_directory\subfolder\file4.txt with extension: .txt
+2024-09-11 16:39:05,494 - DEBUG - Found file: test_directory\subfolder\file5.txt with extension: .txt
+2024-09-11 16:39:05,494 - DEBUG - Skipping file test_directory\subfolder\file6.pdf due to extension filter
+2024-09-11 16:39:05,494 - INFO - Finished scanning directory: test_directory
+2024-09-11 16:39:07,840 - INFO - Starting to scan directory: test_data
+2024-09-11 16:39:07,840 - DEBUG - Scanning directory: test_data
+2024-09-11 16:39:07,841 - DEBUG - Found directory: test_data\1p, scanning recursively
+2024-09-11 16:39:07,841 - DEBUG - Scanning directory: test_data\1p
+2024-09-11 16:39:07,841 - DEBUG - Found directory: test_data\1p\1ch, scanning recursively
+2024-09-11 16:39:07,841 - DEBUG - Scanning directory: test_data\1p\1ch
+2024-09-11 16:39:07,841 - DEBUG - Found directory: test_data\1p\1ch\%, scanning recursively
+2024-09-11 16:39:07,841 - DEBUG - Scanning directory: test_data\1p\1ch\%
+2024-09-11 16:39:07,841 - DEBUG - Found directory: test_data\1p\1ch\%\--, scanning recursively
+2024-09-11 16:39:07,841 - DEBUG - Scanning directory: test_data\1p\1ch\%\--
+2024-09-11 16:39:07,841 - DEBUG - Skipping file test_data\1p\1ch\%\--\p. - Copy.png due to extension filter
+2024-09-11 16:39:07,841 - DEBUG - Skipping file test_data\1p\1ch\%\--\p..png due to extension filter
+2024-09-11 16:39:07,841 - DEBUG - Skipping file test_data\1p\1ch\%\Screenshot 2024-07-19.152529.png due to extension filter
+2024-09-11 16:39:07,841 - DEBUG - Skipping file test_data\1p\1ch\child.txt due to extension filter
+2024-09-11 16:39:07,841 - DEBUG - Found directory: test_data\1p\2ch, scanning recursively
+2024-09-11 16:39:07,841 - DEBUG - Scanning directory: test_data\1p\2ch
+2024-09-11 16:39:07,841 - DEBUG - Found file: test_data\1p\2ch\LICENSE.chromedriver with extension: .chromedriver
+2024-09-11 16:39:07,842 - DEBUG - Found file: test_data\1p\2ch\������.pdf with extension: .pdf
+2024-09-11 16:39:07,842 - DEBUG - Found directory: test_data\1p\3ch, scanning recursively
+2024-09-11 16:39:07,842 - DEBUG - Scanning directory: test_data\1p\3ch
+2024-09-11 16:39:07,842 - DEBUG - Found directory: test_data\1p\3ch\_, scanning recursively
+2024-09-11 16:39:07,842 - DEBUG - Scanning directory: test_data\1p\3ch\_
+2024-09-11 16:39:07,842 - DEBUG - Found directory: test_data\1p\3ch\_\__, scanning recursively
+2024-09-11 16:39:07,842 - DEBUG - Scanning directory: test_data\1p\3ch\_\__
+2024-09-11 16:39:07,842 - DEBUG - Found file: test_data\1p\3ch\_\__\New Microsoft Access Database.accdb with extension: .accdb
+2024-09-11 16:39:07,842 - DEBUG - Found file: test_data\1p\3ch\_\__\New Microsoft Word Document.docx with extension: .docx
+2024-09-11 16:39:07,842 - DEBUG - Found directory: test_data\2p, scanning recursively
+2024-09-11 16:39:07,842 - DEBUG - Scanning directory: test_data\2p
+2024-09-11 16:39:07,842 - DEBUG - Found directory: test_data\2p\2ch, scanning recursively
+2024-09-11 16:39:07,842 - DEBUG - Scanning directory: test_data\2p\2ch
+2024-09-11 16:39:07,842 - DEBUG - Found directory: test_data\2p\3chp, scanning recursively
+2024-09-11 16:39:07,842 - DEBUG - Scanning directory: test_data\2p\3chp
+2024-09-11 16:39:07,842 - DEBUG - Found directory: test_data\3p, scanning recursively
+2024-09-11 16:39:07,842 - DEBUG - Scanning directory: test_data\3p
+2024-09-11 16:39:07,842 - DEBUG - Found file: test_data\3p\bmp with extension: 
+2024-09-11 16:39:07,843 - INFO - Finished scanning directory: test_data
